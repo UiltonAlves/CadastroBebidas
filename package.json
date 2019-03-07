@@ -1,0 +1,36 @@
+{
+  "name": "cadastrobebidas",
+  "version": "1.0.0",
+  "description": "Projeto para cadastro de bebida e seu estoque",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UiltonAlves/CadastroBebidas.git"
+  },
+  "author": "UiltonAlves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UiltonAlves/CadastroBebidas/issues"
+  },
+  "homepage": "https://github.com/UiltonAlves/CadastroBebidas#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.4.17",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-unique-validator": "^2.0.2",
+    "sendgrid": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
